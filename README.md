@@ -14,6 +14,7 @@ you will see normal function call. It is function but it is a **Partial function
 Partial function is not always return a mapping for some input.
 
 So I create a second class name **DeviderV2_Full_Function** try to create a **Total function** that is for every input always has output
+
 ```java
 
 //DeviderV2_Full_Function.java
@@ -57,10 +58,18 @@ So I create a second class name **DeviderV2_Full_Function** try to create a **To
         }
         return Optional.empty();
     }
-    ```
-    `splitInternal(),parseInternal(),devideInternal(),devide()` is a Total function. it is near perfect. except that devide is write in imperative style
     
-    your task is try to implement `devideFunctionaStyle()` as functional style (Monad)
+```
+
+
+
+`splitInternal(),parseInternal(),devideInternal(),devide()` is a Total function. it is near perfect. except that devide is write in imperative style
+    
+ ## Try to `devideFunctionaStyle()` as functional style (Monad)
+ 
+## Resource 
+I use and learn from 
+https://www.youtube.com/watch?v=e6tWJD5q8uw
     
  
     
