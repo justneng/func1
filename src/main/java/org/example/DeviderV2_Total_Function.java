@@ -5,7 +5,7 @@ import java.util.Optional;
 /**
  * All method in this class represent a Total Function. it means every input always map to one output
  */
-public class DeviderV2_Full_Function {
+public class DeviderV2_Total_Function {
     private static Optional<Pair<String, String>> splitInternal(String input) {
         String[] sp = input.split("/");
         if (sp.length < 2) {

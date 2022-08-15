@@ -3,10 +3,10 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Optional;
 
-import static org.example.DeviderV2_Full_Function.devide;
-import static org.example.DeviderV2_Full_Function.devideFunctionaStyle;
+import static org.example.DeviderV2_Total_Function.devide;
+import static org.example.DeviderV2_Total_Function.devideFunctionaStyle;
 
-public class DeviderV2_Full_FunctionTest {
+public class DeviderV2_Total_FunctionTest {
 
 
     @Test
