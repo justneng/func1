@@ -11,9 +11,9 @@ first looks at class **DeviderV1_Partial_Function** in method
     
 ```
 you will see normal function call. It is function but it is a **Partial function** not a **Total function**.
-A partial function is not always return a mapping for some input so that is not good for functional programming.
+A partial function is not always return a mapping for some input, that is not good for functional programming.
 
-So I create a second class name **DeviderV2_Full_Function** try to create a **Total function** that is for every input always has output
+So I create a second class name **DeviderV2_Full_Function** to implement a **Total function** that is for every input always has output
 
 ```java
 
@@ -63,7 +63,7 @@ So I create a second class name **DeviderV2_Full_Function** try to create a **To
 
 
 
-`splitInternal(),parseInternal(),devideInternal(),devide()` is a Total function. it is near perfect. except that devide is write in imperative style
+`splitInternal(),parseInternal(),devideInternal(),devide()` is a Total function. it is near perfect. except that `devide()` is write in imperative style
     
  ## Try to `devideFunctionaStyle()` as functional style (Monad)
  
