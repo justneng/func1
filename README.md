@@ -10,8 +10,8 @@ first looks at class **DeviderV1_Partial_Function** in method
     }
     
 ```
-you will see normal function call. It is function but it is a **Partial function** not a **Total function**
-Partial function is not always return a mapping for some input.
+you will see normal function call. It is function but it is a **Partial function** not a **Total function**.
+A partial function is not always return a mapping for some input so that is not good for functional programming.
 
 So I create a second class name **DeviderV2_Full_Function** try to create a **Total function** that is for every input always has output
 
