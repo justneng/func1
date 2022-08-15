@@ -1,5 +1,5 @@
 # func1
-## This repo use to assist you to Functional style (Monad)
+## This repo use to assist you to learn Functional style (Monad)
 I introdude you how to write simple function to calculate String (only devide) such as "10 / 2"
 first looks at class **DeviderV1_Partial_Function** in method
 ```java
