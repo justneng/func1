@@ -47,6 +47,12 @@ public class DeviderV2_Total_Function {
         return Optional.empty();
     }
 
+    public static Optional<Double> myDivide(String input) {
+        return splitInternal(input)
+                .flatMap(stringStringPair -> parseInternal(stringStringPair))
+                .flatMap(doubleDoublePair -> devideInternal(doubleDoublePair));
+    }
+
     /**
      * Please implement your own functional style of Optional<Double> devide(String input)
      */

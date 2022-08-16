@@ -3,8 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.Optional;
 
-import static org.example.DeviderV2_Total_Function.devide;
-import static org.example.DeviderV2_Total_Function.devideFunctionaStyle;
+import static org.example.DeviderV2_Total_Function.*;
 
 public class DeviderV2_Total_FunctionTest {
 
@@ -13,12 +12,14 @@ public class DeviderV2_Total_FunctionTest {
     public void ok() {
         Optional<Double> result = devide("10/2");
         Assertions.assertEquals(result.get(), 5);
+        Assertions.assertEquals(result.get(), myDivide("10/2").get());
     }
 
     @Test
     public void no_fail_at_all() {
         Optional<Double> result = devide("10/A");
         Assertions.assertEquals(result, Optional.empty());
+        Assertions.assertEquals(result, myDivide("10/A"));
     }
 
     /**
